@@ -781,6 +781,7 @@ public class PseudoInstagram {
 																				// Back to MessagePage
 																				case 7:
 																					isViewingGroup = false;
+																					isOpeningGroup = false;
 																					break;
 
 																				default:
@@ -801,7 +802,7 @@ public class PseudoInstagram {
 																	}
 																}
 															}
-															continue;
+															break;
 
 														// Create New Group
 														case 3:
