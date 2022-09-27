@@ -16,7 +16,7 @@ public class Comment {
     public String getCommentInfo() {
         return "Commenter User: " + getCommenterUser().getFullName() + "("
                 + getCommenterUser().getUsername() + ")" + "\nComment: " + getCommentString()
-                + "\nCount Likes: " + getCountLikes() + "\nCount Replies: " + getCountReplies();
+                + "\nCount Likes: " + getCountLikes() + "\nCount Replies: " + getCountReplies() + "\n";
     }
 
     public String getAllRepliesString() {
